@@ -5,10 +5,11 @@ body {
 .nav {
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 38%;
+    margin-top: 20px;
     font-family: 'Poiret One', cursive;
     font-size: 40px;
     text-align: center;
+    justify-content: center;
 }
 
 .nav li a {
@@ -32,7 +33,7 @@ body {
     justify-content: center;
     align-items: right;
     flex-wrap: wrap;
-    padding-top: 800px;
+    padding-top: 160px;
 }
 .container-texto-2{
 	display: inline-block;
@@ -152,10 +153,72 @@ body {
 
 }
 .banner{
-	height: 300px;
-    width: 300px;
-    margin: 10px;
-    background-image: 'cachorros.png';
-     background-position: center; //centraliza imagem
-    background-size: cover;
+	display: block;
+	 margin-left: auto;
+    margin-right: auto;
+	width: 1100px;
+	padding-top: 50px;
+}
+
+
+
+#menu-hamburguer{
+    width: 45px;
+    position: absolute;
+    right: 5%;
+    top: 1%;
+}
+
+#checkbox-menu{
+  
+  opacity: 0;
+}
+
+label{
+  cursor: pointer;
+  position: relative;
+  display: block;
+  height: 22px;
+  width: 30px;
+}
+
+label span{
+  position: absolute;
+  display: block;
+  height: 5px;
+  width: 100%;
+  border-radius: 30px;
+  background: #FFFFFF;
+  transition: 0.25s ease-in-out;
+}
+
+label span:nth-child(1){
+  top: 0;
+}
+
+label span:nth-child(2){
+  top: 8px;
+}
+
+label span:nth-child(3){
+  top: 16px;
+}
+
+#checkbox-menu:checked + label span:nth-child(1){
+  transform: rotate(-45deg);
+  top: 8px;
+}
+
+#checkbox-menu:checked + label span:nth-child(2){
+  opacity: 0;
+}
+
+#checkbox-menu:checked + label span:nth-child(3){
+  transform: rotate(45deg);
+  top:8px;
+}
+.rodape{
+	height: 299px;
+	background-color: #0E223C;
+	bottom: 1%;
 }
