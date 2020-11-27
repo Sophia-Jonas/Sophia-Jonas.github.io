@@ -5,14 +5,43 @@
 	<link rel="stylesheet" type="text/css" href="csscachorros.css" media="screen" />
 	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+	<style>
+		.overlay {
+			width: 90vw;
+			height: 90vh;
+			background: rgba(0, 0, 0, 0.7);
+			position: absolute;
+			z-index: 10;
+			display: none;
+			margin: 30px;
+			color: #FFF;
+		}
+	</style>
+
+	<script>
+		$(function() {
+			$('#menu-hamburguer #checkbox-menu').click(function() {
+				$('.overlay').fadeToggle('fast');
+			});
+		});
+	</script>
+
 </head>
 
 <body>
+
+<div class="overlay">
+	<h1>conteúdo do menu vai dentro dessa div!</h1>
+</div>
+
 	<div class="logo">
 		<img src="logo.png" alt="logo">
 	</div>
 
-<div  id="menu-hamburguer">
+<div id="menu-hamburguer">
     <input type="checkbox" id="checkbox-menu">
 
     <label for="checkbox-menu">
