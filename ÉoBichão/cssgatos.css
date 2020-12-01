@@ -5,11 +5,12 @@ body {
 .nav {
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 38%;
+    margin-top: 20px;
     font-family: 'Poiret One', cursive;
     font-size: 40px;
     text-align: center;
     justify-content: center;
+    color: white;
 }
 
 .nav li a {
@@ -33,7 +34,7 @@ body {
     justify-content: center;
     align-items: right;
     flex-wrap: wrap;
-    padding-top: 800px;
+    padding-top: 160px;
 }
 .container-texto-2{
 	display: inline-block;
@@ -153,7 +154,15 @@ body {
     flex-wrap: wrap;
     padding-top: 10px;
 
-}#menu-hamburguer{
+}
+.banner{
+	display: block;
+	 margin-left: auto;
+    margin-right: auto;
+	width: 1100px;
+	padding-top: 50px;
+}
+#menu-hamburguer{
     width: 45px;
     position: absolute;
     right: 5%;
@@ -211,7 +220,7 @@ label span:nth-child(3){
 .rodape{
 	height: 200px;
 	background-color: #FF4E00;
-	margin-top: 2000px;
+	margin-top: 1400px;
 }
 .logo2{
 	padding-top: 80px;
