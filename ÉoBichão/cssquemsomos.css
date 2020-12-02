@@ -5,8 +5,22 @@ body {
 display: inline-block;
 	padding-left: 100px;
 	font-family: 'Poiret One', cursive;
-	color:white;
-	font-size: 25px;
+	color:#8B8B8B;
+	font-size: 30px;
+	text-align: justify; 
+	 margin-right: 100px;
+	 float: left;
+    justify-content: center;
+    align-items: right;
+    flex-wrap: wrap;
+    padding-top: 110px;
+}
+.container-texto-3{
+ 	display: inline-block;
+	padding-left: 100px;
+	font-family: 'Poiret One', cursive;
+	color:#8B8B8B;
+	font-size: 30px;
 	text-align: justify; 
 	 
 	 margin-right: 100px;
@@ -88,9 +102,19 @@ label span:nth-child(3){
 .rodape{
 	height: 200px;
 	background-color: #626261;
-	margin-top: 550px;
+	margin-top: 730px;
 }
 .logo2{
 	padding-top: 80px;
 	padding-left: 50px;
+}
+.rodape2{
+	height: 200px;
+	background-color: #626261;
+	margin-top: 1070px;
+}
+.rodape3{
+	height: 200px;
+	background-color: #626261;
+	margin-top: 250px;
 }
